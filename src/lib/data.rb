@@ -6,7 +6,7 @@ class Data
 		@data = RubyFann::TrainData.new(args)
 	end
 		
-	def safe (filename)
+	def save (filename)
 		@data.safe(filename)
 	end
 end
